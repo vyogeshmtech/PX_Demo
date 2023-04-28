@@ -16,10 +16,10 @@ function login() {
   
   if (validateUsername(username, text)) {
     console.log("Username is valid");
-    document.getElementById("message").innerHTML = "Admin keyword not found in username";
-  } else {
-    console.log("Admin keyword found in username, All good!!");
     window.location.href = "https://vyogeshmtech.github.io/index.html";
+  } else {
+    console.log("Admin keyword NOT found in username");
+    document.getElementById("message").innerHTML = "Admin keyword NOT found in username";
   }  
   
   }
