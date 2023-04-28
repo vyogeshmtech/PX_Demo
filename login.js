@@ -19,6 +19,7 @@ function login() {
     document.getElementById("message").innerHTML = "Admin keyword not found in username";
   } else {
     console.log("Admin keyword found in username, All good!!");
+    window.location.href = "https://vyogeshmtech.github.io/index.html";
   }  
   
   }
